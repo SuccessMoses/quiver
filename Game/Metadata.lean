@@ -26,3 +26,8 @@ class Category' (C : Type) extends Quiver' (C : Type) where
   comp_id {X Y : C} {f : Hom X Y} : comp f (id Y) = f
   assoc {W X Y Z : C} (f : Hom X Y) (g : Hom Y Z) (h : Hom Z W) :
     comp f (comp g h) = comp (comp f g) h
+
+class Groupoid' (C : Type) extends Category' C where
+  inv : ∀ {X Y : C}, (Hom X Y) → (Hom Y X)
+  inv_comp : ∀ {X Y : C} (f : Hom X Y), comp (inv f) f = id Y
+  comp_inv : ∀ {X Y : C} (f : Hom X Y), comp f (inv f) = id X
