@@ -57,3 +57,5 @@ Statement (preamble := refine { Hom := ?_, id := ?_, comp := ?_, comp_id := ?_, 
   dsimp
   intro W X Y Z f g h
   simp [Category'.assoc]
+
+NewDefinition Triangle Triangle.mk

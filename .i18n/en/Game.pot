@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-30\n"
+"POT-Creation-Date: 2025-12-31\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -15,6 +15,8 @@ msgstr ""
 #: Game.Levels.World1.L01_Category
 #: Game.Levels.World1.L02_morphisms
 #: Game.Levels.World1.L03_iso
+#: Game.Levels.World1.L04_maximal_groupoid
+#: Game.Levels.World1.L05_slice_category
 msgid "Hello World"
 msgstr ""
 
@@ -35,12 +37,12 @@ msgstr ""
 msgid "Category Theory Game"
 msgstr ""
 
-#: Game.Levels.World1.L03_iso
-msgid "This level introduces Isomorphisms."
-msgstr ""
-
 #: Game
 msgid "You should use this game as a template for your own game and add your own levels."
+msgstr ""
+
+#: Game.Levels.World1.L03_iso
+msgid "This level introduces Isomorphisms."
 msgstr ""
 
 #: Game
@@ -59,6 +61,10 @@ msgid "This text is shown as first message when the level is played.\n"
 "depending on the proof a user provides."
 msgstr ""
 
+#: Game.Levels.World1.L05_slice_category
+msgid "This level introduces the slice category."
+msgstr ""
+
 #: Game.Levels.World1
 msgid "World1"
 msgstr ""
@@ -66,6 +72,10 @@ msgstr ""
 #. §0: `Category`
 #: Game.Levels.World1
 msgid "This World introduces the player to the concept of a §0. TODO: Add description."
+msgstr ""
+
+#: Game.Levels.World1.L04_maximal_groupoid
+msgid "This level introduces the groupoid and the maximal groupoid."
 msgstr ""
 
 #: Game

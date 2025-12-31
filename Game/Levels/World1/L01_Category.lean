@@ -27,6 +27,7 @@ Statement (preamble := refine {Hom := ?_, id := ?_, comp := ?_, comp_id := ?_, i
   · simp
   · exact fun f g h => Eq.symm (Nat.add_assoc f g h)
 
-NewTactic exact simp
+NewTactic exact simp intro refine dsimp
 NewDefinition Nat
-NewTheorem Eq.symm Nat.add_assoc
+NewTheorem Eq.symm Nat.add_assoc Category'.id Category'.assoc Category'.comp Category'.id_comp
+           Category'.comp_id
