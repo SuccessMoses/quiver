@@ -6,6 +6,7 @@ import Game.Levels.World3.L05_homomorphism
 import Game.Levels.World3.L06_monotone
 import Game.Levels.World3.L07_comma
 import Game.Levels.World3.L08_slice
+import Game.Levels.World3.L09_dualfunctor
 
 World "World3"
 Title "World3"
