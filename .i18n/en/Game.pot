@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-06\n"
+"POT-Creation-Date: 2026-01-07\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -172,7 +172,6 @@ msgid "World1"
 msgstr ""
 
 #. §0: `Category`
-#: Game.Levels.World1
 #: Game.Levels.World2
 #: Game.Levels.World3
 msgid "This World introduces the player to the concept of a §0. TODO: Add description."
@@ -192,4 +191,8 @@ msgstr ""
 
 #: Game
 msgid "Game Template"
+msgstr ""
+
+#: Game.Levels.World1
+msgid "Add introduction here"
 msgstr ""
